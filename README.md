@@ -1,5 +1,7 @@
 
 # Simple Code Editor
+![React App](https://github.com/KManishY/Text_Editor/assets/46519725/0478f75f-7371-4e6b-ac26-12bf7c862714)
+
 
 ## Project Objective
 Develop a simple web-based code editor using React, with syntax highlighting capabilities provided by PrismJS.
