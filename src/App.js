@@ -4,8 +4,8 @@ import CodeEditor from './CodeEditor';
 
 function App() {
   return (
-    <div>
-      <h1>Simple Code Editor</h1>
+    <div >
+      <h1 className='App'>  Code Editor</h1>
       <CodeEditor />
     </div>
   );

@@ -23,12 +23,14 @@ const CodeEditor = () => {
 
   return (
     <div className="code-editor">
-      <textarea
-        value={code}
-        onChange={handleChange}
-        spellCheck="false"
-        className="code-input"
-      />
+      <div>
+        <textarea
+          value={code}
+          onChange={handleChange}
+          spellCheck="false"
+          className="code-input"
+        />
+      </div>
       <div className="code-output">
         <Highlight theme={themes.shadesOfPurple} code={code} language="tsx">
           {({ className, style, tokens, getLineProps, getTokenProps }) => (
